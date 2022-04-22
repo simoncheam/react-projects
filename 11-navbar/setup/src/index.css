@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -45,7 +45,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -135,7 +135,7 @@ p {
 }
 
 /*
-=============== 
+===============
 Navbar
 ===============
 */
@@ -186,6 +186,7 @@ nav {
   overflow: hidden;
   transition: var(--transition);
 }
+/* want to create dynamic container height based on # of links */
 .show-container {
   height: 10rem;
 }
