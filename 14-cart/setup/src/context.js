@@ -31,6 +31,14 @@ const remove = (id) => {
 
 }
 
+const increase = (id) => {
+
+  dispatch({ type: 'INCREASE', payload: id })
+}
+const decrease = (id) => {
+
+  dispatch({ type: 'DECREASE', payload: id })
+}
 
 
   return (
@@ -38,7 +46,9 @@ const remove = (id) => {
       value={{
         ...state,
         clearCart,
-        remove
+        remove,
+        increase,
+        decrease
       }}
     >
       {children}
