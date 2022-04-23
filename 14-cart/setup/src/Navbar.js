@@ -1,6 +1,12 @@
 import React from 'react'
 import { useGlobalContext } from './context'
 const Navbar = () => {
+
+// looking for # items in cart
+
+const {amount} = useGlobalContext()
+
+
   return (
     <nav>
       <div className='nav-center'>
