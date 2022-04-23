@@ -40,6 +40,17 @@ const decrease = (id) => {
   dispatch({ type: 'DECREASE', payload: id })
 }
 
+useEffect(() => {
+
+  //API stuff
+  dispatch({ type: 'GET_TOTALS' })
+
+
+}, [state.cart])
+
+
+
+
 
   return (
     <AppContext.Provider
