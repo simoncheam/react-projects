@@ -24,7 +24,6 @@ const CocktailList = () => {
         ))}
       </div>
 
-      <h2>cocktail list component</h2>
     </section>
   );
 };
