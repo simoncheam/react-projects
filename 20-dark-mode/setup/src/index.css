@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -9,6 +9,26 @@ Global Styles
   --clr-font: #282c35;
   --clr-primary: #d23669;
 }
+
+.dark-theme{
+
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+
+}
+
+.light-theme{
+
+  --clr-bcg: #fff ;
+  --clr-font: #282c35;
+  --clr-primary: #d23669;
+
+}
+
+
+
+
 
 *,
 ::after,
@@ -28,7 +48,7 @@ body {
 }
 
 /*
-=============== 
+===============
 Navbar
 ===============
 */
